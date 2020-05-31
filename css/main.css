@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #F4F4FF; }
+
+h1 {
+  text-align: center;
+  margin: 20px 0; }
+
+#title {
+  text-align: center;
+  margin: 10px 0;
+  font-weight: bold;
+  font-size: 20px; }
+
+.photo {
+  display: flex;
+  justify-content: center;
+  height: 450px; }
+  .photo img {
+    height: 100%; }
+
+#explanation {
+  margin: 30px 50px;
+  text-align: justify; }
+
+footer {
+  padding: 16px;
+  text-align: center;
+  border-top: 1px solid grey; }
