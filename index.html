@@ -11,14 +11,17 @@
 <body>
     <h1>Astronomy Picture of the Day</h1>
     <section id="title"></section>
-    <div class="photo">
-        <img src="" alt="See Explanation" id="image">
-    </div>
+    <div class="image"></div>
     <section id="explanation"></section>
+    <div class="previous">
+        <span>
+            <button onclick="apod.addElement()">Image of Previous Day</button>
+        </span>
+    </div>
     <footer>
         <span id="copyright"></span>
     </footer>
-    <script src="main.js"></script>
+    <script type="module" src="./JS/main.js"></script>
 </body>
 
 </html>
